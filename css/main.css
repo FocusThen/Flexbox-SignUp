@@ -1,0 +1,92 @@
+/* === Flexbox time! === */
+body {
+  /* bütün body kullanmak için */
+  background-color: #bdf1f6;
+  height: 100vh;
+  width: 100vw;
+  /* ortalamak için */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Fonts */
+  font-family: "Montserrat", sans-serif;
+
+  /* font sizing */
+  font-size: 0.85em;
+  font-weight: 800;
+  color: rgba(66, 66, 66, 1);
+}
+
+main {
+  /* ortalamak için */
+  /* margin: 0 auto; */
+  display: flex;
+  width: 75%;
+  background-color: #f2fcfc;
+  /* kutu radius */
+  border-radius: 15px;
+}
+
+section,
+form {
+  width: 50%;
+  padding: 70px 50px;
+}
+
+section {
+  text-align: center;
+  border-right-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      #222,
+      #222,
+      rgba(0, 0, 0, 0)
+    )
+    1 100%;
+}
+
+p {
+  line-height: 1.7;
+}
+
+img {
+  width: 125px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 25px 0;
+  font-size: 2em;
+}
+
+/* Forms */
+.signup-form input {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+  margin: 25px 5px;
+  font-weight: 600;
+}
+
+.signup-form button {
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  width: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.signup-form button:hover {
+  background-color: slateblue;
+}
